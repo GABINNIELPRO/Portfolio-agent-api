@@ -1,0 +1,42 @@
+# ===== Secrets (ne jamais pousser) =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== Dossiers non publiés =====
+/ingestion/
+docker-compose.yml
+
+# ===== Python =====
+env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ===== Node / front-end =====
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+
+# ===== Données locales =====
+*.sqlite3
+*.db
+pgdata/
+postgres_data/
+
+# ===== Éditeurs & système =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,8 @@
+fastapi==0.95.1
+uvicorn==0.20.0
+openai==0.27.0
+sqlalchemy==2.0.15
+pgvector==0.4.1
+psycopg2-binary
+
+python-dotenv==0.20.0  # Pour les variables d'environnement comme OPENAI_API_KEY
